@@ -46,7 +46,7 @@ const About = () => {
         </p>
       </div>
       <div lg='12' className="text-center pt-5 absolute bottom-0 lg:w-full text-center pt-5">
-            <p className="copyright">Copyright {year} , design and develop by  Shivesh & Teams. All rights reserved.</p>
+            <p className="copyright">Copyright {year} , design and develop by  Shivesh & Teams . All rights reserved.</p>
       </div>
     </div>
   );
