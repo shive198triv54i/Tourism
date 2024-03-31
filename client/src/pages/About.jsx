@@ -12,13 +12,13 @@ const About = () => {
         <h1 className="text-4xl text-center font-semibold">About</h1>
         <div className="w-max flex flex-col">
           <img src={aboutImg} className="w-40 h-40" alt="Image" />
-          <h1 className="text-xl font-semibold text-center">Singh Anshuman</h1>
+          <h1 className="text-xl font-semibold text-center">Shivesh Trivedi</h1>
         </div>
         <ul className="list-disc w-max mx-5">
           <li className="hover:underline hover:text-blue-600 cursor-pointer">
             <a
               className="flex items-center gap-2"
-              href="https://github.com/SinghAnshuman26"
+              href="https://github.com/"
               target="_blank"
             >
               {/* Git-Hub <FaExternalLinkAlt /> */}
@@ -28,7 +28,7 @@ const About = () => {
           <li className="hover:underline hover:text-pink-600 cursor-pointer">
             <a
               className="flex items-center gap-2"
-              // href="https://www.instagram.com/sanjay_ng_125/"
+    
               target="_blank"
             >
               Instagram <IoLogoInstagram />
@@ -46,7 +46,7 @@ const About = () => {
         </p>
       </div>
       <div lg='12' className="text-center pt-5 absolute bottom-0 lg:w-full text-center pt-5">
-            <p className="copyright">Copyright {year} , design and develop by Anshuman & Teams. All rights reserved.</p>
+            <p className="copyright">Copyright {year} , design and develop by  Shivesh & Teams. All rights reserved.</p>
       </div>
     </div>
   );
