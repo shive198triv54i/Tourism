@@ -78,6 +78,7 @@ const Package = () => {
           packageImages: data?.packageData?.packageImages,
         });
         setLoading(false);
+        
       } else {
         setError(data?.message || "Something went wrong!");
         setLoading(false);

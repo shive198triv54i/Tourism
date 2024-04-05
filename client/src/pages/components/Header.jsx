@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <div className="bg-slate-400 p-4 flex justify-between items-center">
-        <h1
+     <Link to="/">  <h1
           className="h-min text-4xl font-bold relative"
           style={{
             color: "transparent",
@@ -25,7 +25,7 @@ const Header = () => {
           >
             Tour
           </span>
-        </h1>
+        </h1></Link>
         <ul className="flex flex-wrap items-center justify-end gap-2 text-white font-semibold list-none">
           <li className="hover:underline hover:scale-105 transition-all duration-150">
             <Link to={`/`}>Home</Link>
